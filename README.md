@@ -9,6 +9,18 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2018-05-13
+
+**[Sinon.JS](http://sinonjs.org/)**
+
+Read up on [best practices for using `Sinon.JS`](https://semaphoreci.com/community/tutorials/best-practices-for-spies-stubs-and-mocks-in-sinon-js), including when and how to use the `spy`, `stub`, and `mock` methods.
+
+### 2018-05-12
+
+**[Sinon.JS](http://sinonjs.org/)**
+
+Read all [documentation for `Sinon.JS@5`](http://sinonjs.org/releases/v5.0.7/).
+
 ### 2018-05-11
 
 **[Sinon.JS](http://sinonjs.org/)**
