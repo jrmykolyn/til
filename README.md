@@ -9,6 +9,12 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2018-05-14
+
+**[jq](https://stedolan.github.io/jq/)**
+
+A command line utility for parsing JSON data. `jq` can be used for displaying JSON data, extracting a given value, accessing nested data structures, and more.
+
 ### 2018-05-13
 
 **[Sinon.JS](http://sinonjs.org/)**
