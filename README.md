@@ -9,6 +9,12 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2018-05-21
+
+**[Puppeteer](https://github.com/GoogleChrome/puppeteer)**
+
+A node-based tool for running integration and end-to-end tests. Puppeteer can be used to test for the presence of elements on a page, to simulate user interaction, and to take capture the current view as a screenshot.
+
 ### 2018-05-14
 
 **[jq](https://stedolan.github.io/jq/)**
