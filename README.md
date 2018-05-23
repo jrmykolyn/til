@@ -9,6 +9,12 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2018-05-22
+
+**[Fractal](https://fractal.build/)**
+
+A tool for managing, displaying, and describing the markup and styles which make up a component library.
+
 ### 2018-05-21
 
 **[Puppeteer](https://github.com/GoogleChrome/puppeteer)**
