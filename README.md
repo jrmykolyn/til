@@ -9,6 +9,12 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2018-05-24
+
+**[Joi](https://github.com/hapijs/joi)**
+
+A Node.js library for defining schema and validating object schema.
+
 ### 2018-05-23
 
 **[React VR](https://facebook.github.io/react-360/)**
