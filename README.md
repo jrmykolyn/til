@@ -9,6 +9,23 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2018-05-27
+
+**[`Error.captureStackTrace`](https://nodejs.org/api/errors.html#errors_error_capturestacktrace_targetobject_constructoropt)**
+
+A method for storing the current state of the call stack in a given object. For example:
+
+```
+let myObj = {};
+
+let myFn = () => {
+    Error.captureStackTrace( myObj );
+    console.log( myObj.stack ); // 'at MyFn'
+}
+
+myFn();
+```
+
 ### 2018-05-24
 
 **[Joi](https://github.com/hapijs/joi)**
