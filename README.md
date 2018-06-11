@@ -9,6 +9,12 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2018-06-10
+
+**[Cypress](https://www.cypress.io/)**
+
+A test-runner and accompanying UI for integration and end-to-end tests.
+
 ### 2018-05-27
 
 **[`Error.captureStackTrace`](https://nodejs.org/api/errors.html#errors_error_capturestacktrace_targetobject_constructoropt)**
