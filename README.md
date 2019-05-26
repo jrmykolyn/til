@@ -9,6 +9,17 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2019-05-25
+
+**Vim - :normal**
+
+In Vim, the `:normal` and `:normal!` commands may be used to apply a series of keypresses to a selection of lines. For example, this command could be used to append a given character to a series of lines.
+
+```
+# Given a selection of lines, the following command will append the ';' character to each line.
+:normal! A;
+```
+
 ### 2018-06-10
 
 **[Cypress](https://www.cypress.io/)**
