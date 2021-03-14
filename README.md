@@ -9,6 +9,26 @@ A repository to record when (and what) I learned about new development-related l
 
 ## Timeline
 
+### 2021-03-14
+
+Today I learned that the ECMAScript spec once included a proposal for array comprehensions. I also learned that Firefox implemented this proposal, but that it has long since been removed: https://developer.mozilla.org/en-US/docs/Archive/Web/JavaScript/Array_comprehensions
+
+For posterity: this proposal allowed JavaScript others to create new arrays from one or more 'source' arrays. The newly generated arrays may contain a subset of the original elements (eg. a filter operation has been applied), modified versions of the original elements (eg. a map operation has been performed), or both. See below for examples.
+
+```
+// Given an array containing the numbers 1 to 3, square them return the result.
+[for (i of [1, 2, 3]) i * i] // Yields [1, 4, 9]
+
+// Given an array containing the numbers 1 to 3, filter out odd numbers and return the result.
+[for (i of [1, 2, 3]) if (i % 2 === 0) i] // Yields [2]
+
+// Given an array containing the numbers 1 to 3, filter out odd numbers, square the remaining numbers, and return the result.
+[for (i of [1, 2, 3]) if (i % 2 === 0) i * i] // Yields [4]
+
+// Given two arrays, add the members who share the same index and return the result as a new array.
+[for (i of [1, 2, 3]) for (j of [4, 5, 6]] i + j] // Yields [5, 7, 9]
+```
+
 ### 2019-05-25
 
 **Vim - :normal**
